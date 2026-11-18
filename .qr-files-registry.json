@@ -1,0 +1,28 @@
+[
+  {
+    "id": "qr_1791806071814_e212d84fc2fd",
+    "fileName": "TestDoc.docx",
+    "diskName": "qr_1791806071814_e212d84fc2fd.docx",
+    "size": 26,
+    "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "category": "word",
+    "categoryLabel": "ឯកសារ Word (DOCX/DOC)",
+    "icon": "📄",
+    "createdAt": 1791806071814,
+    "accessUrl": "https://ais-dev-olfj5axr5tu3xswdlb7w73-447371415023.asia-southeast1.run.app/api/qr/file/qr_1791806071814_e212d84fc2fd",
+    "downloadUrl": "https://ais-dev-olfj5axr5tu3xswdlb7w73-447371415023.asia-southeast1.run.app/api/qr/file/qr_1791806071814_e212d84fc2fd?download=1"
+  },
+  {
+    "id": "qr_1791806078388_af53b5c30602",
+    "fileName": "Report.pdf",
+    "diskName": "qr_1791806078388_af53b5c30602.pdf",
+    "size": 11,
+    "mimeType": "application/pdf",
+    "category": "pdf",
+    "categoryLabel": "ឯកសារ PDF",
+    "icon": "📑",
+    "createdAt": 1791806078388,
+    "accessUrl": "https://ais-dev-olfj5axr5tu3xswdlb7w73-447371415023.asia-southeast1.run.app/api/qr/file/qr_1791806078388_af53b5c30602",
+    "downloadUrl": "https://ais-dev-olfj5axr5tu3xswdlb7w73-447371415023.asia-southeast1.run.app/api/qr/file/qr_1791806078388_af53b5c30602?download=1"
+  }
+]

@@ -1,0 +1,32 @@
+{
+  "male": {
+    "hasCustomVoice": false,
+    "name": "តារា",
+    "studioVoice": "Charon",
+    "label": "🌟 តារា (សំឡេងប្រុស - Dara)",
+    "samplePath": "",
+    "duration": 0,
+    "updatedAt": 1792078160552,
+    "pitchRate": 0.82,
+    "tempo": 1.34,
+    "bassGain": 3,
+    "trebleGain": 1,
+    "filterChainSpeech": "asetrate=24000*0.82,aresample=24000,atempo=1.34,bass=g=3",
+    "filterChainSong": "asetrate=24000*0.83,aresample=24000,atempo=1.28,bass=g=3,aecho=0.8:0.88:45:0.22"
+  },
+  "female": {
+    "hasCustomVoice": false,
+    "name": "ស្រីមុំ",
+    "studioVoice": "Kore",
+    "label": "🌸 ស្រីមុំ (សំឡេងស្រី - Sreymom)",
+    "samplePath": "",
+    "duration": 0,
+    "updatedAt": 1792078160552,
+    "pitchRate": 1,
+    "tempo": 1.12,
+    "bassGain": 1,
+    "trebleGain": 2.5,
+    "filterChainSpeech": "atempo=1.12,equalizer=f=3200:t=q:w=1:g=2.5,bass=g=1:f=120",
+    "filterChainSong": "atempo=1.06,equalizer=f=3400:t=q:w=1:g=2.5,aecho=0.8:0.88:45:0.22"
+  }
+}

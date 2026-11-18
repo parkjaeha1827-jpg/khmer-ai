@@ -1,0 +1,25 @@
+name: Khmer Super AI Telegram Bot 24/7 Cloud Runner & Keep-Alive
+
+on:
+  schedule:
+    - cron: "*/5 * * * *"
+  workflow_dispatch:
+
+jobs:
+  telegram-bot-24-7:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Run 24/7 Telegram Bot Cloud Cycle & Webhook Keep-Alive
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          KEEPALIVE_URL: ${{ secrets.KEEPALIVE_URL }}
+        run: node scripts/telegram-24-7-runner.mjs
